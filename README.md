@@ -1,3 +1,3 @@
 # Object-Detection-Assignment
 Colab üzerinde eğitim yaptığımız dosyalar yukarıda bulunmaktadır.<br>
-[Veri Setini içeren Drive Linki](https://drive.google.com/drive/folders/1FxFK4pRp1jjUPJzXgXnpAo16fQhVH-0I?usp=sharing)
+[Veri Seti, Test Görüntüleri ve Ağırlık dosyası içeren Drive Linki](https://drive.google.com/drive/folders/1OQ-FE_LdO4oLulo_yghf8AeDAdx6UCMW?usp=sharing)
