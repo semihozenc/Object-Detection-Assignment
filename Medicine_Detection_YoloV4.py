@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
                                    #test edilecek resmin konumu
-img = cv2.imread(r"/Users/semihozenc/Desktop/Medicine-Detection/source/testImages/a.png")  
+img = cv2.imread(r"/Users/semihozenc/Desktop/Medicine-Detection/source/testImages/toplu.png")  
 #print(img)
 
 
@@ -108,6 +108,6 @@ for max_id in max_ids: # liste içindeki değeri çekeceğiz
             cv2.putText(img,label,(start_x,start_y-10), cv2.FONT_HERSHEY_SIMPLEX, 1, box_color, 3)
 
 #bize resim dosyası olarak çıktı verecek
-cv2.imwrite(r"/Users/semihozenc/Desktop/Medicine-Detection/source/predictImage/predictedImage.jpg", img) 
+cv2.imwrite(r"/Users/semihozenc/Desktop/Medicine-Detection/source/predictImage/predictedImage1.jpg", img) 
 
 
