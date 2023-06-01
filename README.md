@@ -1,5 +1,15 @@
-# YAPAY ZEKA İLE NESNE TESPİTİ  VE ALGORİTMALARIN KARŞILAŞTIRILMASI
-<img width="676" alt="image" src="https://github.com/semihozenc/Object-Detection-Assignment/assets/100075605/0b7119df-938e-4c03-b62d-0d748bf5087c">
+## YAPAY ZEKA İLE NESNE TESPİTİ  VE ALGORİTMALARIN KARŞILAŞTIRILMASI
+#### Uygulama Adımları
+  1. Veri Setinin elde edilmesi
+    * Yapacağımız proje için hazırlanmış bir veri seti olmadığı için verileri kendimiz elde ettik. Bunun için 12 farklı ilaca ait, ilacın tanesinde 60 resim olmak üzere toplam 720 farklı resim kullandık. 
+  2. Veri Setinin Etiketlenmesi
+    * Yolo Algoritmasında kullanmak için 720 tane resim sınıflarına göre makesense.ai internet sitesinde Yolo formatında tek tek etiketlendi ve txt formatında bir çıktı alındı.
+    <img width="630" alt="image" src="https://github.com/semihozenc/Object-Detection-Assignment/assets/100075605/dd521dbf-ace2-4935-bbbd-ac37afee5e61">
+    * Faster R-CNN Algoritmasında kullanmak için 720 tane resim sınıflarına göre labelme uygulamasında 12 class olacak biçimde etiketlendi.
+Etiketlenen fotoğrafların .json uzantılı dosyaları oluşturuldu.
+  <img width="641" alt="image" src="https://github.com/semihozenc/Object-Detection-Assignment/assets/100075605/d5fde396-3b1e-4818-9a55-c5a01e77fe93">
 
-Colab üzerinde eğitim yaptığımız dosyalar ve localde modeli kullandığımız kodlar yukarıda bulunmaktadır. Fast R-CNN algoritmasının test edilmesi train dosyasının içinde gerçekleştirilebilir.<br>
+
+
+<br><br>Colab üzerinde eğitim yaptığımız dosyalar ve localde modeli kullandığımız kodlar yukarıda bulunmaktadır. Fast R-CNN algoritmasının test edilmesi train dosyasının içinde gerçekleştirilebilir.<br>
 [Veri Seti, Test Görüntüleri ve Ağırlık dosyası içeren Drive Linki](https://drive.google.com/drive/folders/1OQ-FE_LdO4oLulo_yghf8AeDAdx6UCMW?usp=sharing)
